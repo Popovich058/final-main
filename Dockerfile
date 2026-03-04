@@ -8,6 +8,6 @@ RUN go mod download
 
 COPY . .
 
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /final_app
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o /fin_app
 
-CMD ["/final_app"]
+CMD ["/fin_app"]
